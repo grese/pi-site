@@ -1,0 +1,26 @@
+
+# ========================
+# Hidden Files:
+# ========================
+.*
+# ---- except ----
+!.bowerrc
+!.gitignore
+!.gitkeep
+!.jshintrc
+!.csshintrc
+
+# ========================
+# Compiled Output:
+# ========================
+/dist
+/tmp
+
+# ========================
+# Dependencies:
+# ========================
+/node_modules
+/vendor/*
+# ---- except ----
+!/vendor/*.js
+!/vendor/*.css
